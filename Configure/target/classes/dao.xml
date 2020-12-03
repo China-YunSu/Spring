@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="UserDaoMysqlImpl" class="man.kuke.dao.UserDaoMysqlImpl"/>
+
+    <!--c 命名空间注入，构造器注入-->
+    <!--      xmlns:c="http://www.springframework.org/schema/c"-->
+    <bean id="UserDaoMysqlImpl2" class="man.kuke.dao.UserDaoMysqlImpl" c:name="mysql"/>
+    <!--    有参数构造 通过参数名设置-->
+    <!--    <bean id="UserDaoMysqlImpl2" class="man.kuke.dao.UserDaoMysqlImpl">-->
+    <!--        <constructor-arg name="name" value="mysql"/>-->
+    <!--    </bean>-->
+
+    <bean id="UserDaoOracleImpl" class="man.kuke.dao.UserDaoOracleImpl"/>
+    <!--    单例模式-->
+    <bean id="UserDaoOracleImpl3" class="man.kuke.dao.UserDaoOracleImpl" scope="singleton"/>
+    <!--    多例模式 -->
+    <bean id="UserDaoOracleImpl4" class="man.kuke.dao.UserDaoOracleImpl" scope="prototype"/>
+
+    <bean id="Student" class="man.kuke.model.Student">
+        <property name="name" value="李柯柯"/>
+        <property name="books">
+            <array>
+                <value>西游记</value>
+                <value>三国演义</value>
+                <value>红楼梦</value>
+            </array>
+        </property>
+
+        <property name="games">
+            <set>
+                <value>cs</value>
+                <value>魔兽</value>
+            </set>
+        </property>
+
+        <property name="card">
+            <map>
+                <entry key="身份证" value="110"/>
+            </map>
+        </property>
+
+        <property name="hobbys">
+            <list>
+                <value>"看书"</value>
+            </list>
+        </property>
+
+        <property name="info">
+            <props>
+                <prop key="driver">123</prop>
+            </props>
+        </property>
+
+        <property name="wife">
+            <null/>
+        </property>
+
+    </bean>
+
+    <!-- more bean definitions for data access objects go here -->
+
+</beans>

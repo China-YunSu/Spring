@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="Log" class="man.kuke.log.Log"/>
+    <bean id="LogAfter" class="man.kuke.log.LogAfter"/>
+    <bean id="UserServiceImpl" class="man.kuke.service.UserServiceImpl"/>
+
+<!--    方式一：使用原生Spring API接口-->
+<!--     <aop:config>-->
+<!--&lt;!&ndash;        * man.kuke.service.UserServiceImpl.*(..)-->
+<!--            * 标识我们不关心方法的返回值类型-->
+<!--            man.kuke.service.UserServiceImpl 指定类插入-->
+<!--            .*(..) 指定所有重载方法-->
+<!-- &ndash;&gt;-->
+<!--         <aop:pointcut id="pointcut" expression="execution(* man.kuke.service.UserServiceImpl.*(..))"/>-->
+<!--&lt;!&ndash;         环形增加&ndash;&gt;-->
+<!--         <aop:advisor advice-ref="Log" pointcut-ref="pointcut"/>-->
+<!--         <aop:advisor advice-ref="LogAfter" pointcut-ref="pointcut"/>-->
+
+<!--     </aop:config>-->
+
+
+
+<!--    自定义类-->
+    <bean id="diy" class="man.kuke.diy.DiyPointCut"/>
+    <aop:config>
+<!--        自定义切面，ref 要引用的类-->
+        <aop:aspect ref="diy">
+<!--        切入点-->
+            <aop:pointcut id="pointcut" expression="execution(* man.kuke.service.UserServiceImpl.*(..))"/>
+<!--            通知-->
+            <aop:before method="before" pointcut-ref="pointcut"/>
+            <aop:after method="after" pointcut-ref="pointcut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
