@@ -13,6 +13,7 @@
         <module>AutoWired</module>
         <module>Annotation</module>
         <module>AOP</module>
+        <module>Spring-mybatis</module>
     </modules>
 
     <name>Spring</name>

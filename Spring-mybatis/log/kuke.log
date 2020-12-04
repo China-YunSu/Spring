@@ -1,0 +1,132 @@
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1437941060.
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55b53d44]
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==>  Preparing: select * from person
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==> Parameters: 
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1437941060.
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55b53d44]
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==>  Preparing: select * from person
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==> Parameters: 
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1437941060.
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55b53d44]
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==>  Preparing: select * from person
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==> Parameters: 
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]<==      Total: 0
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55b53d44]
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55b53d44]
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1437941060 to pool.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 532087022.
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1fb700ee]
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==>  Preparing: select * from person
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==> Parameters: 
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]<==      Total: 0
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1fb700ee]
+[DEBUG][20-12-04][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1fb700ee]
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 532087022 to pool.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54d9d12d] was not registered for synchronization because synchronization is not active
+[DEBUG][20-12-04][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a7ed1f] will not be managed by Spring
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==>  Preparing: select * from person
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==> Parameters: 
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]<==      Total: 0
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54d9d12d]
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54d9d12d] was not registered for synchronization because synchronization is not active
+[DEBUG][20-12-04][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2a7ed1f] will not be managed by Spring
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==>  Preparing: select * from person
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==> Parameters: 
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]<==      Total: 2
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54d9d12d]
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@815b41f] was not registered for synchronization because synchronization is not active
+[DEBUG][20-12-04][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@748741cb] will not be managed by Spring
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==>  Preparing: select * from person
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==> Parameters: 
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]<==      Total: 2
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@815b41f]
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6150c3ec] was not registered for synchronization because synchronization is not active
+[DEBUG][20-12-04][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1130520d] will not be managed by Spring
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==>  Preparing: select * from person
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==> Parameters: 
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]<==      Total: 2
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6150c3ec]
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Creating a new SqlSession
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6150c3ec] was not registered for synchronization because synchronization is not active
+[DEBUG][20-12-04][org.mybatis.spring.transaction.SpringManagedTransaction]JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1130520d] will not be managed by Spring
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==>  Preparing: select * from person
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]==> Parameters: 
+[DEBUG][20-12-04][man.kuke.dao.UserMapper.getPeople]<==      Total: 2
+[DEBUG][20-12-04][org.mybatis.spring.SqlSessionUtils]Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6150c3ec]

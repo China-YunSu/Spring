@@ -1,12 +1,16 @@
 package man.kuke.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 /**
  * @author: kuke
  * @date: 2020/12/3 - 17:44
  * @description:
  */
 public class People {
+    @Autowired
     private Cat cat;
+    @Autowired
     private Dog dog;
 
     public People() {
